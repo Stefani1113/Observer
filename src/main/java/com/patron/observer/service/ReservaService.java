@@ -21,7 +21,7 @@ public class ReservaService {
     public String crearReserva() {
         String cliente = "Stefania puerta";
 
-        System.out.println("Reserva dreada para" + cliente);
+        System.out.println("Reserva creada para " + cliente);
 
         publisher.publishEvent(new ReservaCreadaEvent(cliente));
 

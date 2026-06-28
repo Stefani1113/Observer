@@ -16,7 +16,7 @@ public class NotificacionListener {
     @EventListener
     public void enviarNotificacion(ReservaCreadaEvent event) {
         System.out.println("NOTIFICACIÓN");
-        System.out.println("Hola" + event.getCliente());
+        System.out.println("Hola " + event.getCliente());
         System.out.println("Tu reserva fue realizada con éxito");
     }
 }
